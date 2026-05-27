@@ -2,6 +2,7 @@
 <html>
 <head>
   <title>Index of /picioruse</title>
+  <link rel="icon" href="picioruse.png">
   <style>
     body {
       background: #1a1a1a;
@@ -13,7 +14,14 @@
     }
     h1 { color: #fff; font-size: 1.2rem; margin-bottom: 4px; }
     hr { border: none; border-top: 1px solid #333; margin: 10px 0; }
-    pre { line-height: 2; }
+    .row {
+      display: flex;
+      justify-content: space-between;
+      padding: 0;
+      font-family: monospace;
+      line-height: 2;
+    }
+    .left { display: flex; gap: 16px; }
     a { color: #0000ff; text-decoration: none; }
     a:hover { text-decoration: underline; }
     .size { color: #888; }
@@ -28,8 +36,14 @@
 <body>
   <h1>Index of /picioruse</h1>
   <hr>
-  <pre><a href="picioruse.png">picioruse.png</a>  <span class="size">68 KB</span>
-<a href="picioruse.jpg">picioruse.jpg</a>  <span class="size">249 KB</span></pre>
+  <div class="row">
+    <div class="left"><a href="picioruse.png">picioruse.png</a><span class="size">68 KB</span></div>
+    <a href="picioruse.png" download>download</a>
+  </div>
+  <div class="row">
+    <div class="left"><a href="picioruse.jpg">picioruse.jpg</a><span class="size">249 KB</span></div>
+    <a href="picioruse.jpg" download>download</a>
+  </div>
   <hr>
   <footer>s-aveti pofta la descarcat</footer>
 </body>
